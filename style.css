@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+
+    background: linear-gradient(90deg, #2C3E50, #FD746C);
+    background-size: 200% 200%;
+    animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-weight: lighter;
+    margin-top: -2px;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    margin-top: -25px;
+}
+h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    font-weight: lighter;
+}
+h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: lighter;
+}
+input{
+    width: 100%;
+    border: 2px solid #2C3E50;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 2rem;
+    margin-top: -20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+}
+input:focus{
+    width: 100%;
+    transition: 0.5s;
+    border: 2px solid #FD746C;
+    border-radius: 10px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 2rem;
+}
+button{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 50px;
+    background-color: #2C3E50;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
