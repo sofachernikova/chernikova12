@@ -88,3 +88,24 @@ button{
     color: white;
     font-size: 1.3rem;
 }
+.active
+{
+    transition: 1s;
+    background-color: #FD746C;
+}
+.active:hover
+{
+    background-color: #FD746C;
+}
+ol{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    color: white;
+
+}
+li{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    margin-top: -25px;
+}
